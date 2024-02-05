@@ -1,4 +1,5 @@
 import "./App.css";
+import cartwheel from "../images/cartwheel.gif";
 
 function App() {
   return (
@@ -6,7 +7,7 @@ function App() {
       <h1>Hello</h1>
       <p>world</p>
       <br />
-      <img src="./images/cartwheel.gif" alt="bear cartwheeling" />
+      <img src={cartwheel} alt="bear cartwheeling" />
     </>
   );
 }
