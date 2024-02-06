@@ -1,0 +1,40 @@
+Liste over palworld-pals
+hver pal skal ha en/flere typer
+restrict to 50?
+
+assets: thumbnails of pal
+        thumbnails of type
+
+Style: dark grey background, white font, sans serif.  *h4 for number, h1/2 for name
+        *Small images, table with rows of five
+        *rounded corners for each card, *slightly darker gray for the
+        *individual cards, drop shadow to *"lift" them from the page
+
+Filer: Pals.jsx [array av pals {number}{name}{image}{type}]
+        Pals.css
+        assets- pal001.jpg && type001.jpg
+
+
+format:
+<header>List of pals</header>
+<main>
+
+<card>
+<header> Number, name </header>
+<section>image</section>
+<img of type> <p>Type(s) of the pal</p>
+</card>
+</main>
+
+card card card card card
+card card card card card
+card card card card card
+card card card card card
+card card card card card
+card card card card card
+card card card card card
+card card card card card
+card card card card card
+card card card card card
+
+
