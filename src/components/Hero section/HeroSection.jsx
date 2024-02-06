@@ -1,6 +1,8 @@
+import style from "./HeroSection.module.css";
+
 export function HeroSection() {
   return (
-    <section>
+    <section className={style.section}>
       <h1>Hero Section</h1>
       <h1>Contact</h1>
       <p>

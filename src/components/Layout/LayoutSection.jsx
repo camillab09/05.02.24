@@ -1,9 +1,11 @@
-import "./layout.css";
+import style from "./layout.module.css";
+import { ExternalLink } from "../ExternalLink/ExternalLink";
+console.log(style);
 
 export function Layout(properties) {
   return (
-    <div className="layout">
-      <header className="navbar">
+    <div className={style.Layout}>
+      <header className={style.navbar}>
         <a href="">Logo</a>
         <nav>
           <ul>
@@ -19,11 +21,19 @@ export function Layout(properties) {
           </ul>
         </nav>
       </header>
-      <main className="main">{properties.children}</main>
-      <footer className="footer">
+      <main className={style.main}>{properties.children}</main>
+      <footer className={style.footer}>
         <p>Kodehode Modul D</p>
         <br />
         <p>{new Date().toLocaleDateString()}</p>
+
+        <nav>
+          <ul>
+            <li>
+              <ExternalLink href="https://github.com">Github</ExternalLink>
+            </li>
+          </ul>
+        </nav>
       </footer>
     </div>
   );
